@@ -1,0 +1,97 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main00{
+color:#0000;
+color:#FFFF;
+color:#001354;
+color:#010D3E;
+color:#EAEEFE; 
+color:#D2DCFF;
+color:#7B7B7B;
+color:#BCBCBC;
+color:#655ead;
+ 
+ 
+color:#DD7DFF;
+color:#E1CD86;
+color:#8BCB92;
+color:#71C2EF;
+color:#3BFFFF;
+}
+.home-gradient{
+    background-image: linear-gradient(20deg,#183EC2,#EAEEFE,#EAEEFE);
+}
+
+.gradient-text {
+  
+    background-image:  linear-gradient(
+        0deg,
+        #001354 , 
+        #000 );
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  }
+  
+  .tag-gradient{
+    background-image:  linear-gradient(45deg,
+        #DD7DFF , 
+        #E1CD86,
+#8BCB92 ,
+#71C2EF ,
+#3BFFFF 
+         );
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  }
+
+.head-text-1{
+    @apply font-semibold  font-dm-sans text-[54px] md:font-bold md:text-[90px];
+}
+.body-large{
+    @apply font-normal text-[22px] font-inter;
+}
+.head-text-2{
+    @apply font-bold text-[54px] font-dm-sans;
+}
+.body-small-tag{
+    @apply font-normal text-[14px] font-dm-sans;
+}
+
+.head-text-5{
+    @apply font-bold text-[18px] font-dm-sans;
+}
+.body-medium{
+    @apply font-normal text-[16px] font-inter;
+}
+.body-s{
+    @apply font-normal text-[14px] font-inter;
+}
+.head-text-4{
+    @apply font-bold text-[26px] font-dm-sans;
+}
+.body-bold{
+    @apply font-medium text-[16px] font-inter;
+}
+.body-s-bold{
+    @apply font-bold text-[14px] font-inter;
+}
+.tag{
+    @apply font-medium text-[14px] font-inter;
+}
